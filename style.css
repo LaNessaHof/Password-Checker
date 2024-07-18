@@ -1,10 +1,10 @@
 #password-strength {
-    height: 10px;
+    height: 20px;
     border-radius: 5px;
   }
   
   #password-strength .progress-bar {
-    border-radius: 5px;
+    border-radius: 10px;
   }
   
   #password-strength .bg-danger {
@@ -34,6 +34,6 @@
     font-size: 22px;
   }
 label[for="password"] {
-    font-size: 20px; /* Adjust the size as needed */
+    font-size: 22px; /* Adjust the size as needed */
     font-weight: bold; /* Ensure the text is bold */
 }
