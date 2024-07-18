@@ -33,3 +33,7 @@
     margin-top: 5px;
     font-size: 22px;
   }
+label[for="password"] {
+    font-size: 20px; /* Adjust the size as needed */
+    font-weight: bold; /* Ensure the text is bold */
+}
