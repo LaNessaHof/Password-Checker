@@ -37,3 +37,7 @@ label[for="password"] {
     font-size: 22px; /* Adjust the size as needed */
     font-weight: bold; /* Ensure the text is bold */
 }
+#password + p {
+    margin-top: 20px; /* Add space above the "Your password should include" section */
+}
+
