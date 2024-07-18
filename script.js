@@ -2,9 +2,9 @@ function calculatePasswordStrength(password) {
     var passwordStrength = 'weak';
     
     if (password.match(/[a-z]+/) && password.match(/[A-Z]+/) && password.match(/[0-9]+/) && password.match(/[$-/:-?{-~!"^_`\[\]]/)) {
-      if (password.length >= 12) {
+      if (password.length >= 20) {
         passwordStrength = 'strong';
-      } else if (password.length >= 8) {
+      } else if (password.length >= 12) {
         passwordStrength = 'medium';
       }
     }
